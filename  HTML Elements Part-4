@@ -1,3 +1,0 @@
-An HTML element usually consists of a start tag and end tag
-HTML elements with no content are called empty elements.
-<br> is an empty element without a closing tag (the <br> tag defines a line break):
