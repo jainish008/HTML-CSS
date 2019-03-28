@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>E-Cube Global College</title>
+
+<style type="text/css">
+	h1 {
+    color: black;
+    text-align: left;
+}
+    body {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    font-weight: 400;
+    color: #798696;
+	overflow-x:hidden;
+}
+ul.a {
+    list-style-type: square;
+}
+.mySlides {display:none;}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+    display: block;
+}
+
+</style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+</div>
+				 <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>	
+			
+				<ul class="nav navbar-nav">
+      <li class="active"><a href="about.html">Admission Process</a></li>
+						
+		
+						 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="courses.html">Courses<span class="caret"></span></a>
+        		<ul class="dropdown-menu">
+        	  	<li><a href="courses.html">Level 4 BBA</a></li>
+          		<li><a href="computing4.html">Level 4 Computing</a></li>
+        		</ul>
+      			</li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="uk.html">UK University<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="uk.html">Northumbria University</a></li>
+              <li><a href="roeha.html">Roehampton University</a></li>
+            </ul>
+            </li>
+						
+						<ul class="nav navbar-nav">
+      <li class="active"><a href="contact.html">Contact</a></li>
+						
+						<ul class="nav navbar-nav">
+      <li class="active"><a href="enquiry.html">Enquiry</a></li>
+					</ul>
+				</nav>
+  <h2 class="w3-center">Campus Image</h2>
+  <div class="w3-content w3-section" style="max-width:300px">
+  <img class="mySlides" src="file:///C:/Users/RJ/Desktop/Coding%20Circle/SDLC/Website%20design/class%20room.jpg" style="width:95%">
+  <img class="mySlides" src="file:///C:/Users/RJ/Desktop/Coding%20Circle/SDLC/Website%20design/Liabrary.jpg" style="width:95%">
+  <img class="mySlides" src="file:///C:/Users/RJ/Desktop/Coding%20Circle/SDLC/Website%20design/turf.jpg" style="width:95%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="container">
+<h2>About the College</h2>
+<p> 
+ECube Global College (2010) is established by a premier educational institution of India, Citizens Welfare Association (CWA), a public trust registered under the auspices of Bombay Public Trust Act, 1950. Mr .Sandeep Goenka who is ably supported by his wife Mrs. Archana Goenka heads the Trust. They are committed to imparting quality education through their network of scholastic institutions.</p>
+				<!-- /Navigation -->
+
+<h2>Our Vision:</h2>
+<p>ECube Global College aims at being a centre of Knowledge and Wisdom, Meeting the Career aspirations of students and demands of the International Environment. </p>
+
+<h2>Our Core Values:</h2>
+<p>The name ECube is an acronym for Enlighten, Enrich and Empower. These three elements are the cornerstones of the institution and act as true north for all its endeavours.</p>
+
+<p>ENLIGHTEN - We value in fostering our students with greater knowledge and understanding about a subject or a situation.
+ENRICH – We value in enriching our students to add greater significance to enhance the quality of life and developing a positive outlook.
+EMPOWER – We value in empowering our students to become more stronger and confident in acquiring skills to become a successful managers.</p>
+
+<p>Pursuing a singular goal, the trust ensures high academic standards across all its educational establishments, beginning from kindergarten to centres for higher studies. In its quest to expand its horizons, the Trust foresees setting up a Global University, which will ensure the scholar’s seamless transition into the global academic community. Other educational institutions that are managed by the CWA Trust are: </p>
+<ul class="a">
+<li>CP Goenka International School, Juhu (Mumbai)</li>
+<li>CP Goenka International School, Thane</li>
+<li>ECube Global College, Kandivli (Mumbai)</li>
+<li>CP Goenka International School, Indore</li>
+<li>CP Goenka International School, Pune</li>
+<li>Swami Vivekanand International School and Jr College, Kandivli (Mumbai)</li>
+<li>Swami Vivekanand International School, Gorai (Mumbai)</li>
+<li>Gopi Birla Memorial School, Walkeshwar (Mumbai)</li>
+<li>Spring Buds International, Lamington (Mumbai)</li>
+<li>Spring Buds International, Kandivali/Borivali (Mumbai)</li>
+<li>Spring Buds International, Pune</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+  <p>Copyright © ECube 2014. All Rights Reserved | Site Designed & Maintained By Paramatrix Software Solution</p>
+</div>
+
+</body>
+</html>
